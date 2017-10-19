@@ -3,5 +3,8 @@
 # inherit from Slim
 #
 
-BOARD_SEPOLICY_DIRS += \
-    device/slim/sepolicy/common
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+    device/slim/sepolicy/common/public
+
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    device/slim/sepolicy/common/private
